@@ -7,10 +7,6 @@
 <title>some title</title>
 </head>
 <body>
-	<font color="red">${userInvalid}</font>
-	<form method="post">
-		Name : <input type="text" name="name" /> Password : <input
-			type="password" name="pass" /> <input type="submit" />
-	</form>
+	welcome ${name}, your password is ${passwd}
 </body>
 </html>
